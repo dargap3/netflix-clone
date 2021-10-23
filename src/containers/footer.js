@@ -1,4 +1,4 @@
-import { Footer } from "../components";
+import { Footer } from '../components';
 
 export function FooterContainer() {
   return (
@@ -40,5 +40,5 @@ export function FooterContainer() {
       <Footer.Break />
       <Footer.Text>Netflix Colombia</Footer.Text>
     </Footer>
-  )
+  );
 }

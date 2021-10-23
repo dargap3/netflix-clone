@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Container = styled.section`
   display: flex;
@@ -20,7 +20,7 @@ export const Title = styled.h1`
   margin-bottom: 8px;
   color: white;
   text-align: center;
-  
+
   @media (max-width: 600px) {
     font-size: 35px;
   }
@@ -49,7 +49,7 @@ export const Body = styled.div`
   padding: 0.8em 1.2em 0.8em 1.2em;
   user-select: none;
   align-items: center;
-  
+
   @media (max-width: 600px) {
     font-size: 16px;
     line-height: 22px;
@@ -66,5 +66,5 @@ export const Item = styled.div`
 `;
 
 export const Frame = styled.div`
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 `;
